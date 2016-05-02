@@ -119,6 +119,11 @@
 			"args": []
 		},
 		{
+			"name": "copy_file_range",
+			"action": "SCMP_ACT_ALLOW",
+			"args": []
+		},
+		{
 			"name": "creat",
 			"action": "SCMP_ACT_ALLOW",
 			"args": []
@@ -715,6 +720,11 @@
 		},
 		{
 			"name": "mlock",
+			"action": "SCMP_ACT_ALLOW",
+			"args": []
+		},
+		{
+			"name": "mlock2",
 			"action": "SCMP_ACT_ALLOW",
 			"args": []
 		},
@@ -1616,3 +1626,4 @@
 		}
 	]
 }
+
