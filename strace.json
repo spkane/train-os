@@ -229,6 +229,7 @@
 				"pwrite64",
 				"pwritev",
 				"pwritev2",
+				"ptrace",
 				"read",
 				"readahead",
 				"readlink",
