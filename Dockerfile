@@ -8,6 +8,7 @@ RUN dnf install -y \
       iputils \
       tcpdump \
       ntpdate \
+      procps-ng \
       strace \
       bonnie++ \
       stress && \
