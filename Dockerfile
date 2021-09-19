@@ -8,6 +8,7 @@ RUN dnf install -y \
       iproute \
       iputils \
       tcpdump \
+      util-linux \
       ntpsec \
       procps-ng \
       strace \
