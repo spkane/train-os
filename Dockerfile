@@ -13,6 +13,7 @@ RUN dnf install -y \
       procps-ng \
       strace \
       bonnie++ \
+      lsof \
       stress && \
   dnf clean all
 
