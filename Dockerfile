@@ -1,4 +1,4 @@
-from fedora:34
+FROM fedora:34
 
 RUN useradd -u 500 -m user500 && \
   useradd -u 501 -m user501
